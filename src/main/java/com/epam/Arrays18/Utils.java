@@ -2,7 +2,8 @@ package com.epam.Arrays18;
 
 import java.util.Scanner;
 
-/*Helper methods that read characters from the console and check for parity
+/*
+ *Helper methods that read characters from the console and check for parity
  */
 public class Utils {
     public static String inputString() {
