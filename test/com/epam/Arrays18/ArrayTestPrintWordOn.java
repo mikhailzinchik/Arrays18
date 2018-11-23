@@ -1,3 +1,5 @@
+package com.epam.Arrays18;
+
 import org.junit.Test;
 
 import static com.epam.Arrays18.Array3.printWordOne;
