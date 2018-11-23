@@ -1,15 +1,10 @@
 package com.epam.Arrays18;
 
 import org.junit.Test;
-import java.util.ArrayList;
-import java.util.Arrays;
 import static com.epam.Arrays18.Array.getSymbols;
-import static com.epam.Arrays18.Array2.getWordByIndex;
-import static com.epam.Arrays18.Array3.printWordOne;
-import static com.epam.Arrays18.Array4.evenElementsInArray;
 import static org.junit.Assert.assertEquals;
 
-public class ArrayTest {
+public class ArrayTestGetSymbols {
     @Test
     public void testGetSymbols() {
         char[][] testArray = {
@@ -43,30 +38,4 @@ public class ArrayTest {
                 "c".toCharArray()
         });
     }
-
-    @Test
-    public void testGetWordByIndex() {
-        char[][] testArray = {"dog".toCharArray(), "cat".toCharArray(), "wolf".toCharArray()};
-        assertEquals("cat", getWordByIndex(testArray, 2, 0, 1));
-    }
-
-    @Test
-    public void testPrintWordOne() {
-        char[][] array = {
-                "a b c".toCharArray(),
-                " d e ".toCharArray(),
-                "f g h".toCharArray(),
-                " i j ".toCharArray(),
-                "k l m".toCharArray()};
-        assertEquals("abcdefghijklm", printWordOne(array));
-        assertEquals("afkdibglejchm", printWordOne(array));
-    }
-
-    @Test
-    public void testEvenElementsInArray() {
-        char[][] testArray = {"ABCD".toCharArray(), "EFGH".toCharArray()};
-        ArrayList<String> expected = new ArrayList<String>(Arrays.asList("AC", "EG"));
-        assertEquals(expected, evenElementsInArray(testArray));
-    }
-
 }
