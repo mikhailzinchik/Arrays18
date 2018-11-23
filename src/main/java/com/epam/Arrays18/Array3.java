@@ -1,7 +1,8 @@
 package com.epam.Arrays18;
 
 public class Array3 {
-    /*12.271. Task a. from left to right in each line starting from the first
+    /*
+     *12.271. Task a. from left to right in each line starting from the first
      */
     public static StringBuilder printWordOne(char[][] array) {
         StringBuilder str = new StringBuilder();
@@ -17,7 +18,8 @@ public class Array3 {
         return str;
     }
 
-    /* 12.272.Task b. top to bottom in each column starting from the first
+    /* 
+     *12.272.Task b. top to bottom in each column starting from the first
      */
     public static StringBuilder printWordTwo(char[][] array) {
         StringBuilder str = new StringBuilder();
