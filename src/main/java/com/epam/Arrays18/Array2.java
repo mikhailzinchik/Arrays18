@@ -1,7 +1,8 @@
 package com.epam.Arrays18;
 import java.util.Arrays;
 
-/*12.271 Print a string formed by the characters of a single line, starting with the character startIndex, ending endIndex.
+/*
+ * 12.271 Print a string formed by the characters of a single line, starting with the character startIndex, ending endIndex.
  */
 public  class Array2 {
     public static String getWordByIndex(char[][] array, int row, int startIndex, int endIndex) {
