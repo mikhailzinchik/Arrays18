@@ -1,6 +1,7 @@
 package com.epam.Arrays18;
 
-/* 12.273 Type the words formed by the even elements of each line of the array.
+/*
+ *12.273 Type the words formed by the even elements of each line of the array.
  */
 public class Array4 {
     public static boolean isEven(int number) {

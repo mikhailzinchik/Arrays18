@@ -1,6 +1,7 @@
 package com.epam.Arrays18;
 
-/* Print a string formed by characters located in the four corners of the array (in any order)
+/* 
+ *Print a string formed by characters located in the four corners of the array (in any order)
  */
 public class Array {
     public static String getSymbols(char[][] array) {
