@@ -1,6 +1,5 @@
-package com.epam.Arrays18;
-
 import org.junit.Test;
+
 import static com.epam.Arrays18.Array.getSymbols;
 import static org.junit.Assert.assertEquals;
 

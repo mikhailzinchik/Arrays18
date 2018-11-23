@@ -1,5 +1,3 @@
-package com.epam.Arrays18;
-
 import org.junit.Test;
 
 import java.util.ArrayList;
