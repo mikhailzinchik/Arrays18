@@ -7,7 +7,8 @@ import static com.epam.Arrays18.Array3.printWordTwo;
 import static com.epam.Arrays18.Array4.evenElementsInArray;
 import static com.epam.Arrays18.Array5.getWordOdd;
 
-/* 12.270 Print a string formed by characters located in the four corners of the array (in any order)
+/* 
+ * 12.270 Print a string formed by characters located in the four corners of the array (in any order)
  * 12.271 Create a program that prints the word formed by several consecutive characters
  * with given numbers located in a certain row of the array
  * 12.272 Given a two-dimensional array of size 5x5, filled with letters. Type
